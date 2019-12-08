@@ -43,7 +43,9 @@ class Wallet {
     remainingDrinks.reduce((x, y) => x + y) / results.length;
   const anyDrinks = remainingDrinks.filter(x => x > 0).length / montecarlo;
 
-  console.log(`of 1000 tries, the other card averaged ${averageRemaining}`);
+  console.log(
+    `of ${montecarlo} tries, the other card averaged ${averageRemaining} remaining drinks`
+  );
   console.log(
     `...and ${anyDrinks}% of the time there was at least one drink on the other card.`
   );
