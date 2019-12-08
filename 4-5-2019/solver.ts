@@ -1,6 +1,6 @@
 // https://fivethirtyeight.com/features/does-your-gift-card-still-have-free-drinks-on-it/
 
-const montecarlo = 100000;
+const montecarlo = 1000000;
 
 class Wallet {
   a: number;
