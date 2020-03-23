@@ -1,5 +1,8 @@
 {
   "compilerOptions": {
-    "lib": ["ES2018", "DOM"]
+    "moduleResolution": "node",
+
+    "lib": ["ES2018", "DOM"],
+    "downlevelIteration": true
   }
 }
